@@ -14,6 +14,7 @@ If you think any of these tags are irrelevant, email me at andy@htmlfriendly.com
 Ready? Let's learn how to give your pages some mindblowing `<head>`.
 --------
 
+## The Basic Tags
 
 `<meta charset="utf-8">`
 
@@ -57,4 +58,27 @@ The Robots tag tells bots (like Googlebot) whether or not you would like a page 
 
 _index or noindex_ - Let's Google know that you would like the page indexed, or not indexed. A good example of a page you may not want indexed would be a Terms of Use page (who fucking reads those).
 
-_follow or nofollow_ - Do you want your links on the page followed or not dude? 
+_follow or nofollow_ - Do you want your links on the page followed or not dude? It's generally good practice to not use _nofollow_ unless you have a really good excuse.
+
+In general, the robots tag is only useful in cases you don't want a page indexed. 
+
+If you want your page to act normal (get indexed and have the links followed) you can leave this one out.
+
+`<link rel="canonical" href="https://htmlfriendly.com"/>`
+
+The canonical tag let's Google know what your preferred URL is for your page. Let's say you're selling rolled tacos online and people have 3 options. i.e. There are four versions of the page (including the base page /rolled-tacos).
+
+- saritas.com/rolled-tacos (base page for rolled tacos)
+- saritas.com/rolled-tacos?cheese=cheddar
+- saritas.com/rolled-tacos?cheese=fundido
+- saritas.com/rolled-tacos?cheese=fresco
+
+So I'm ordering some fucking perfectly crispy rolled tacos and I'm on the rolled tacos page (saritas.com/rolled-tacos) and I can't decide what cheese I want. If I check the "fresco" cheese option the URL changes to (/rolled-tacos?cheese=fresco), although I check the "fresco" box and the URL changes, the content does not change.
+
+This means there are (4) URLs on saritas.com that have _the exact same content_ on them. Without a canonical tag Google's sitting there thinking, "why the fuck do these idiots (who make really good rolled tacos) have 4 fucking versions of the page, this seems like some spammy, duplicate content, bulshit dude". 
+
+Here's where a canonical tag can save the day.
+
+If you just set that fucking thing to `<<link rel="canonical" href="https://saritas.com/rolled-tacos"/>` Google now knows that you only have one real version of the page, and you avoid a duplicate content issue (Google hates that shit).
+
+
