@@ -12,6 +12,8 @@ Below you will find a short description of what each piece of your head section 
 If you think any of these tags are irrelevant, email me at andy@htmlfriendly.com and let's talk about this shit, motherfucker.
 
 Ready? Let's learn how to give your pages some mindblowing `<head>`.
+--------
+
 
 `<meta charset="utf-8">`
 
@@ -37,3 +39,22 @@ Your title should be succinct, conversational in tone, and match what the user w
 
 The description tag is a brief summary that you would like Google to display under your title. It's important to know that Google doesn't _always_ display your description. 
 
+Your description should be less than 160 characters (940 pixels) or just like your `<title>` it will be truncated. 
+
+While your description is not something Google looks at to evaluate the content on your page, it's still **very** important for SEO. It influences your clickthrough rate (CTR). 
+
+What's a clickthrough rate you ask? It's pretty fucking simple dude.
+
+Let's say in one day your page pops up in Google 100 times, but only gets 10 clicks, your CTR would be 10%. This means your title and description are captivating enough to get 1 out of 10 people to click. 
+
+Like I mentioned it still _influences_ SEO. The more people that click a search result in Google, the more Google thinks it's a good match for whatever the fuck someone is looking for. 
+
+`<meta name="robots" content="index,follow">`
+
+The Robots tag tells bots (like Googlebot) whether or not you would like a page indexed and the links followed. Think of it like having your book at a library, but you tell the librarian, "hey keep this shit in your desk, don't put it on a shelf (index it)".
+
+**Robot Components**:
+
+_index or noindex_ - Let's Google know that you would like the page indexed, or not indexed. A good example of a page you may not want indexed would be a Terms of Use page (who fucking reads those).
+
+_follow or nofollow_ - Do you want your links on the page followed or not dude? 
