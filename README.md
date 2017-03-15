@@ -4,6 +4,7 @@ Standardized SEO for some real f*cking SEO
 ## HEAD
 
 `<meta charset="utf-8">`
+
 UTF-8 declares the character encoding as Unicode.
 
 `<meta http-equiv="x-ua-compatible" content="ie=edge">`
