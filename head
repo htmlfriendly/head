@@ -1,0 +1,33 @@
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<meta name="description" content="">
+<!-- index,follow is the default. Only use this meta tag if you'd like to noindex,follow or index,nofollow a specific page (i.e. /terms-and-conditions/) -->
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="">
+
+<!-- OG meta tags -->
+<meta property="og:site_name" content="">
+<!-- This becomes your Facebook "Headline" -->
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:type" content="">
+<!-- Facebook debugger DOES NOT ACCEPT a relative URL (i.e. //assets.icm.com/dog.jpg), it requires an absolute URL-->
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+
+<!-- Facebook meta tags -->
+<meta property="fb:page_id" content="">
+<meta property="fb:app_id" content="">
+
+<!-- Twitter -->
+<meta name="twitter:site" content="@">
+<meta property="twitter:account_id" content="">
+<meta property="twitter:title" content="">
+<meta property="twitter:description" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image:src" content="ABSOLUTE URL">
+<meta property="twitter:creator" content="@">
+</head>
