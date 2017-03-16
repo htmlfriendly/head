@@ -1,5 +1,5 @@
 # seo
-Standardized SEO for some real f*cking SEO
+Standardized SEO for some real fucking results in Google
 
 ## HEAD
 
