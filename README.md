@@ -64,7 +64,7 @@ In general, the robots tag is only useful in cases you don't want a page indexed
 
 If you want your page to act normal (get indexed and have the links followed) you can leave this one out.
 
-`<link rel="canonical" href="https://htmlfriendly.com"/>`
+`<link rel="canonical" href="https://htmlfriendly.com">`
 
 The canonical tag let's Google know what your preferred URL is for your page. Let's say you're selling rolled tacos online and people have 3 options. i.e. There are four versions of the page (including the base page /rolled-tacos).
 
@@ -75,10 +75,72 @@ The canonical tag let's Google know what your preferred URL is for your page. Le
 
 So I'm ordering some fucking perfectly crispy rolled tacos and I'm on the rolled tacos page (saritas.com/rolled-tacos) and I can't decide what cheese I want. If I check the "fresco" cheese option the URL changes to (/rolled-tacos?cheese=fresco), although I check the "fresco" box and the URL changes, the content does not change.
 
-This means there are (4) URLs on saritas.com that have _the exact same content_ on them. Without a canonical tag Google's sitting there thinking, "why the fuck do these idiots (who make really good rolled tacos) have 4 fucking versions of the page, this seems like some spammy, duplicate content, bulshit dude". 
+This means there are (4) URLs on saritas.com that have _the exact same content_ on them. Without a canonical tag Google's sitting there thinking, "why the fuck do these idiots (who make really good rolled tacos) have 4 fucking versions of the page, this seems like some spammy, duplicate content, bullshit dude". 
 
 Here's where a canonical tag can save the day.
 
-If you just set that fucking thing to `<<link rel="canonical" href="https://saritas.com/rolled-tacos"/>` Google now knows that you only have one real version of the page, and you avoid a duplicate content issue (Google hates that shit).
+If you just set that fucking thing to `<link rel="canonical" href="https://saritas.com/rolled-tacos">` Google now knows that you only have one real version of the page, and you avoid a duplicate content issue (Google hates that shit).
 
+## OG Tags (Open Graph Protocol)
 
+Want your site to kick ass when users share it on Facebook? Then pay close attention motherfucker.
+
+Open Graph Protocol simply let's sites like Facebook know what to display when someone shares the page. Don't overthink it, while they do more than that, just remember these are really fucking important to Facebook. 
+
+Any idiot can find out if they're using these the right way by going to https://developers.facebook.com/tools/debug/ and plugging in a URL. If you have issues, this tool is going to let you know about them.
+
+`<meta property="og:site_name" content="Saritas Taco Shop">`
+
+Every company has a name, and that's what you put in this little fucker. If I'm Saritas Taco Shop, I'm going to put that shit right here. It **is not the name of your webpage, it's the name of your company/site as a whole**
+
+`<meta property="og:title" content="The Best Fucking Rolled Tacos You've Ever Had">`
+
+The OG Title is what get's displayed when someone shares one of your pages on Facebook. You're probably asking yourself, "why the fuck should this be different?". Think about this, if I'm optimizing a page for the search query "Rolled Tacos" I'd make my regular title tag `<title>Rolled Tacos</title>`, but who the fuck is going to click some boring shit like that.
+
+Here's where the OG Title tags can help you dominate on Facebook.
+
+Set that motherfucker to something like "The Best Fucking Rolled Tacos You've Ever Had" and get more likes, shares and people ultimately clicking the shit you share on Facebook.
+
+`<meta property="og:description" content="">`
+
+The OG Description tag is similar to the OG Title tag, if you want to have a more captivating title when your page is shared on Facebook. Write some catchy shit and put it in the tag.
+
+`<meta property="og:type" content="article">`
+
+The OG Type tag let's you specify what type of content the page contains. There are a few options here, but the two most common are "article" and "website". 
+
+Let's say you own Saritas, and it has a blog attached to it. On blog pages you would set your OG Type to "article" (because it's a fucking article), every other page should have an OG Type of "website". 
+
+`<meta property="og:url" content="https://saritas.com/rolled-tacos">`
+
+The OG URL is the little URL that gets displayed when your page gets shared on Facebook. It's best practice to have your OG URL match the actual URL of the page, AND match the canonical URL. 
+
+It's IMPORTANT that this little fucker is an absolute URL (i.e. https://saritas.com/rolled-tacos NOT /rolled-tacos) or else that shit isn't going to please the Facebook gods.
+
+`<meta property="og:image" content="https://saritas.com/burritos.jpg">`
+
+Probably the most important OG tag is the OG Image tag. Set this to the image you want Facebook to display when a user shares your post. If you don't declare an OG Image, Facebook is going to sift through your page and choose any random fucking image. This could include your logo which is probably going to look like shit when stretched to 750 pixels.
+
+**The image you choose should be 1200px x 630px**
+
+### Special Facebook Tags
+
+`<meta property="fb:page_id" content="">`
+    
+ `<meta property="fb:app_id" content="">`
+ 
+ ## Twitter Tags
+ 
+ `<meta name="twitter:site" content="@">`
+ 
+ `<meta property="twitter:account_id" content="">`
+ 
+ `<meta property="twitter:title" content="">`
+ 
+ `<meta property="twitter:description" content="">`
+ 
+`<meta property="twitter:card" content="summary_large_image">`
+
+`<meta property="twitter:image:src" content="ABSOLUTE URL">`
+
+`<meta property="twitter:creator" content="@">`
