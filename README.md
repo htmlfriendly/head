@@ -1,5 +1,5 @@
-# seo
-Standardized SEO for some real fucking results in Google
+# Perfecting The `<head>` of a WebPage
+A standardized `<head>` section tested and effective for more than 5m monthly organic visitors.
 
 ## HEAD
 
