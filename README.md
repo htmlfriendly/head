@@ -1,9 +1,5 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
-</style>
-
-
 # Standardized `<head>` for WebPages
+
 A standardized `<head>` section tested and effective for sites with **more than 5m monthly organic visitors**.
 
 ## HEAD
