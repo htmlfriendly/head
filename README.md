@@ -1,5 +1,5 @@
-# Perfecting The `<head>` of a WebPage
-A standardized `<head>` section tested and effective for more than 5m monthly organic visitors.
+# Standardized `<head>` for WebPages
+A standardized `<head>` section tested and effective for sites with **more than 5m monthly organic visitors**.
 
 ## HEAD
 
