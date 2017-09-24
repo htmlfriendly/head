@@ -4,7 +4,13 @@ A standardized `<head>` section tested and effective for sites with **more than 
 
 ## HEAD
 
-Code living in the `<head>` section of a page will not be seen by users while on said page, but it's still really fucking important to include all of the tags mentioned below. There are a few important pieces of info in the head of your pages that is used by Google, Facebook, Twitter and other social networks.
+Code living in the `<head>` section of a page can have large impacts on the success of your website.
+
+| Role                 | Controls      |
+| ---------------------|:-------------:|
+| SEO                  | SERPs, Bots   |
+| Developer            | CSS, JS, and other scripts      |
+| Social Media Manager | Appearance in Facebook, Twitter, and other social apps      |
 
 When a bot (like Googlebot) is crawling your site it's the first thing it "sees" on your page so it's pretty fucking crucial.
 
