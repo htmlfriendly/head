@@ -7,7 +7,7 @@ A standardized `<head>` section tested and effective for sites with **more than 
 Code living in the `<head>` section of a page can have large impacts on the success of your website.
 
 | Role                 | Controls      |
-| ---------------------|:-------------:|
+| ---------------------|---------------|
 | SEO                  | SERPs, Bots   |
 | Developer            | CSS, JS, and other scripts      |
 | Social Media Manager | Appearance in Facebook, Twitter, and other social apps      |
