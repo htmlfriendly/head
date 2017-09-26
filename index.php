@@ -1,5 +1,5 @@
 <?php include 'variables/global.php';?>
-<?php include 'variables/page.php';?>
+<?php include 'variables/website.php';?>
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='x-ua-compatible' content='ie=edge'>
