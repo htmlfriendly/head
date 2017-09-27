@@ -1,7 +1,7 @@
 <?php
 
 // SEO: Set by SEO Manager and/or Developer(s)
-$type = 'WebSite';
+$type = 'WebPage';
 $title = 'Something Captivating';
 $description = '160 characters or less that capture attention and outperform you competitors.';
 $robots = 'index,follow';
