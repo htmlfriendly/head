@@ -30,7 +30,12 @@ head
 └── article.php
 ```
 
-#### Global Variables
+#### Variables
+
+- **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`)
+- **`website.php`** - Coming Soon
+- **`website.php`** - Coming Soon
+- **`website.php`** - Coming Soon
 
 #### JSON-LD Starter Templates
 
