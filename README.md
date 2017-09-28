@@ -6,11 +6,11 @@ A standardized `<head>` section tested and effective for sites with **more than 
 
 There are (3) major types of `<head>` sections for use with:
 
-- **WebSite** (used for the home page only)
-- **WebPage** (ex: About Us, Contact, FAQs)
-- **Article** (Blog, News, Articles)
+- [**WebSite**](https://github.com/htmlfriendly/head/blob/master/website.php) (used for the home page only)
+- [**WebPage**](https://github.com/htmlfriendly/head/blob/master/webpage.php) (ex: About Us, Contact, FAQs)
+- [**Article**](https://github.com/htmlfriendly/head/blob/master/article.php) (Blog, News, Articles)
 
-Google has stated the `<head>` section is not a ranking factor in their search algo, but your `<head>` section is still critical for online marketing success (SEO and Paid Marketing).
+Google has stated the `<head>` section is not a [ranking factor](http://searchengineland.com/8-major-google-ranking-signals-2017-278450) in their search algo, but your `<head>` section is still critical for online marketing success (SEO and Paid Marketing).
 
 | Role                 | Controls      |
 | ---------------------|---------------|
