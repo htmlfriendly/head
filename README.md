@@ -1,14 +1,16 @@
-# Standardized `<head>` for WebPages
+# Standardized `<head>`
 
 A standardized `<head>` section tested and effective for sites with **more than 5m monthly organic visitors**.
 
-## The 3 Main Types of Webpages
+## 3 Types of `<head>`
 
-There are (3) major types of `<head>` sections that are widely used and accepted by W3C Standards, Google, Bing, Yahoo, Facebook, and Twitter. 
+There are (3) major types of `<head>` sections for use with:
 
 - WebSite (used for the home page only)
 - WebPage (ex: About Us, Contact, FAQs)
 - Article (Blog, News, Articles)
+
+Google has stated the `<head>` section is not a ranking factor in their search algo, but your `<head>` section is still critical for online marketing success (SEO and Paid Marketing).
 
 | Role                 | Controls      |
 | ---------------------|---------------|
