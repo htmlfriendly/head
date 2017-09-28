@@ -12,7 +12,7 @@ There are (3) major types of `<head>` sections for use with:
 | [**WebPage**](https://github.com/htmlfriendly/head/blob/master/webpage.php) | About Us, Contact, FAQs |
 | [**Article**](https://github.com/htmlfriendly/head/blob/master/article.php) | Blog, News, Articles |
 
-### Extended Examples (Using `php` Templating)
+### Structure
 
 ```
 head
@@ -30,4 +30,8 @@ head
 └── article.php
 ```
 
+#### Global Variables
 
+#### JSON-LD Starter Templates
+
+#### Page Types
