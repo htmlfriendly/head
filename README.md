@@ -70,7 +70,7 @@ It's **important to keep these in one place** _for easy access in the future_.
 
 #### **`webpage.php`** - Used on non-article pages (i.e. About, Contact, FAQs)
 
-- `$type`: 'WebPage'
+- `$type`: `WebPage`
 - `$title`: 60-70 character (or 568 pixel) title specific to your `WebPage`
 - `$description`: 156 character (or 940 pixel) description specific to you `WebPage`
 - `$robots`: For most cases this should be `index,follow`
