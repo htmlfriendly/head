@@ -46,8 +46,6 @@ Your Global Variables will be used across the site:
 - `$phone` = You main contact phone number
 - `$email` = Your main email address (should include match your website domain name)
 
-Keep these in one place for easy access in the future.
+It's **important to keep these in one place** _for easy access in the future_.
 
-#### JSON-LD Starter Templates
 
-#### Page Types
