@@ -11,7 +11,6 @@ $twitterHandle = 'sampleCompanyINC';
 
 //Contact Info
 $phone = '+1-800-555-1234';
-$email = 'info@sample.com'
-
+$email = 'info@sample.com';
 
 ?>

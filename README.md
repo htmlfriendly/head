@@ -12,7 +12,7 @@ There are (3) major types of `<head>` sections for use with:
 | [**WebPage**](https://github.com/htmlfriendly/head/blob/master/webpage.php) | About Us, Contact, FAQs |
 | [**Article**](https://github.com/htmlfriendly/head/blob/master/article.php) | Blog, News, Articles |
 
-There can be multiple `WebPage`'s and `Article`'s on your site, but _only one_ `WebSite` page should exist.
+There can be multiple `WebPage`s and `Article`s on your site, but _only one_ `WebSite` page should exist.
 
 ### Structure
 
@@ -34,7 +34,7 @@ head
 
 #### Variables
 
-##### **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`). 
+##### **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`).
 
 Used in `<link>` tags, `<meta>` tags and in your `JSON-LD`.
 
@@ -86,6 +86,6 @@ It's **important to keep these in one place** _for easy access in the future_.
 
 Same as `WebPage` but also includes and modifies:
 
-- `$author`: An _actual human_ that wrote the `Article`
+- `$author`: The _actual human_ who wrote the `Article`
 - `$datePub`: In the format `2017-09-26T08:00:00+08:00`
 - `$dateMod`: In the format `2017-09-27T08:00:00+08:00`
