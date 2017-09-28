@@ -32,7 +32,7 @@ head
 
 #### Variables
 
-##### **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`)
+##### **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`). These will get used in `<link>` tags, `<meta>` tags and in your `JSON-LD`.
 
 Your Global Variables will be used across the site:
 
