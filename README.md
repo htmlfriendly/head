@@ -62,3 +62,16 @@ It's **important to keep these in one place** _for easy access in the future_.
 - `$socialTitle`: The title seen by users on Facebook and Twitter (can be different than your regular `title`)
 - `$socialDescription`: The description seen by users on Facebook and Twitter
 
+------------------
+
+#### **`webpage.php`** - Used on non-article pages (i.e. About, Contact, FAQs)
+
+- `$type`: 'WebPage'
+- `$title`: 60-70 character (or 568 pixel) title specific to your `WebPage`
+- `$description`: 156 character (or 940 pixel) description specific to you `WebPage`
+- `$robots`: For most cases this should be `index,follow`
+- `$url`: Absolute URL for your `WebPage`
+- `$author`: For `WebPage` this will be the name of your site
+- `$socialImage`: The "featured image" used in Facebook and Twitter when someone shares your page
+- `$socialTitle`: The title seen by users on Facebook and Twitter (can be different than your regular `title`)
+- `$socialDescription`: The description seen by users on Facebook and Twitter
