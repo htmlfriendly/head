@@ -32,9 +32,11 @@ head
 
 #### Variables
 
-##### **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`). These will get used in `<link>` tags, `<meta>` tags and in your `JSON-LD`.
+##### **`global.php`** - Used multiple times throughout all three page types (`website`, `webpage` and `article`). 
 
-Your Global Variables will be used across the site:
+Used in `<link>` tags, `<meta>` tags and in your `JSON-LD`.
+
+Your Global Variables will be used across the site on multiple pages:
 
 - `$siteName`: Top level name of your website/oranization
 - `$logo`: Main logo for your site
@@ -75,3 +77,13 @@ It's **important to keep these in one place** _for easy access in the future_.
 - `$socialImage`: The "featured image" used in Facebook and Twitter when someone shares your page
 - `$socialTitle`: The title seen by users on Facebook and Twitter (can be different than your regular `title`)
 - `$socialDescription`: The description seen by users on Facebook and Twitter
+
+------------------
+
+#### **`article.php`** - Used on Blog Posts, Articles and News pages of your site
+
+Same as `WebPage` but also includes and modifies:
+
+- `$author`: An _actual human_ that wrote the `Article`
+- `$datePub`: In the format `2017-09-26T08:00:00+08:00`
+- `$dateMod`: In the format `2017-09-27T08:00:00+08:00`
