@@ -6,17 +6,14 @@ A standardized `<head>` section tested and effective for sites with **more than 
 
 There are (3) major types of `<head>` sections for use with:
 
-- [**WebSite**](https://github.com/htmlfriendly/head/blob/master/website.php) (used for the home page only)
-- [**WebPage**](https://github.com/htmlfriendly/head/blob/master/webpage.php) (ex: About Us, Contact, FAQs)
-- [**Article**](https://github.com/htmlfriendly/head/blob/master/article.php) (Blog, News, Articles)
+| Type                 | Use           |
+| ---------------------|---------------|
+| [**WebSite**](https://github.com/htmlfriendly/head/blob/master/website.php) | Home Page Only   |
+| [**WebPage**](https://github.com/htmlfriendly/head/blob/master/webpage.php) | About Us, Contact, FAQs |
+| [**Article**] | Blog, News, Articles |
 
 Google has stated the `<head>` section is not a [ranking factor](http://searchengineland.com/8-major-google-ranking-signals-2017-278450) in their search algo, but your `<head>` section is still critical for online marketing success (SEO and Paid Marketing).
 
-| Role                 | Controls      |
-| ---------------------|---------------|
-| SEO                  | SERPs, Bots   |
-| Developer            | CSS, JS, and other scripts      |
-| Social Media Manager | Appearance in Facebook, Twitter, and other social apps      |
 
 When a bot (like Googlebot) is crawling your site it's the first thing it "sees" on your page so it's pretty fucking crucial.
 
