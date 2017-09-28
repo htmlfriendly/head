@@ -12,6 +12,8 @@ There are (3) major types of `<head>` sections for use with:
 | [**WebPage**](https://github.com/htmlfriendly/head/blob/master/webpage.php) | About Us, Contact, FAQs |
 | [**Article**](https://github.com/htmlfriendly/head/blob/master/article.php) | Blog, News, Articles |
 
+There can be multiple `WebPage`'s and `Article`'s on your site, but _only one_ `WebSite` page should exist.
+
 ### Structure
 
 ```
