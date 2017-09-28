@@ -2,9 +2,13 @@
 
 A standardized `<head>` section tested and effective for sites with **more than 5m monthly organic visitors**.
 
-## HEAD
+## The 3 Main Types of Webpages
 
-Code living in the `<head>` section of a page can have large impacts on the success of your website.
+There are (3) major types of `<head>` sections that are widely used and accepted by W3C Standards, Google, Bing, Yahoo, Facebook, and Twitter. 
+
+- WebSite (used for the home page only)
+- WebPage (ex: About Us, Contact, FAQs)
+- Article (Blog, News, Articles)
 
 | Role                 | Controls      |
 | ---------------------|---------------|
