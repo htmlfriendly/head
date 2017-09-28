@@ -16,4 +16,54 @@ There are (3) major types of `<head>` sections for use with:
 
 Coming soon and you better finish writing this shit.
 
+```
+Instant Checkmate (/)
+├── Features
+├── About
+├── FAQs
+├── Contact
+├── People
+│	├── a
+│	├── b
+│	├── c
+│	├── ...
+│	└── z
+├── Login
+├── Crimewire
+├── Criminal Records
+├── Glossary
+│	├── Arrest Records
+│	├── Arson
+│	├── Background Check
+│	├── Burglary
+│	├── Criminal Record
+│	├── Embezzlement
+│	├── Felonies
+│	├── Fraud
+│	├── Larceny
+│	├── Lawsuits
+│	├── Misdemeanors
+│	├── Murder
+│	├── Prostitution
+│	├── Public Records
+│	├── Robbery
+│	├── Sex Offender Database
+│	├── Sexual Offenses
+│	├── Speeding Tickets
+│	├── Suspicion
+│	└── Vandalism
+├── Inmate Search
+├── CrimeWire
+├── Legal
+│	├── Dos and Don'ts
+│	├── Limited License
+│	├── Privacy Policy
+│	├── DMCA
+│	└── Terms of Use
+├── Help
+	├── Cancel Account
+	├── Reset Password
+	└── Opt Out
+```
+
 
