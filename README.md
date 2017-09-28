@@ -36,16 +36,29 @@ head
 
 Your Global Variables will be used across the site:
 
-- `$siteName` = Top level name of your website/oranization
-- `$logo` = Main logo for your site
-- `$favicon` = 32x32px icon you'll see in the browser tab
-- `$googlePlus` = The URL for your Google+ page
-- `$facebookAppId` = Find your Facebook App ID in your Facebook admin
-- `$facebookHandle` = The URI string following facebook.com for your organization/site (i.e. https://facebook.com/`company-url`)
-- `$twitterHandle` = Find this in your Twitter URL (i.e. https://twitter.com/`htmlfriendly`
-- `$phone` = You main contact phone number
-- `$email` = Your main email address (should include match your website domain name)
+- `$siteName`: Top level name of your website/oranization
+- `$logo`: Main logo for your site
+- `$favicon`: 32x32px icon you'll see in the browser tab
+- `$googlePlus`: The URL for your Google+ page
+- `$facebookAppId`: Find your Facebook App ID in your Facebook admin
+- `$facebookHandle`: The URI string following facebook.com for your organization/site (i.e. https://facebook.com/`company-url`)
+- `$twitterHandle`: Find this in your Twitter URL (i.e. https://twitter.com/`htmlfriendly`
+- `$phone`: You main contact phone number
+- `$email`: Your main email address (should include match your website domain name)
 
 It's **important to keep these in one place** _for easy access in the future_.
 
+-----------------
+
+#### **`website.php`** - For use on you home page only (i.e. www.example.com)
+
+- `$type`: `WebSite`
+- `$title`: 60-70 character (or 568 pixel) title for your website
+- `$description`: 156 character (or 940 pixel) description of your website
+- `$robots`: For most cases this should be `index,follow`
+- `$url`: Absolute URL for your website
+- `$author`: For `WebSite` this will be the name of your site
+- `$socialImage`: The "featured image" used in Facebook and Twitter when someone shares your page
+- `$socialTitle`: The title seen by users on Facebook and Twitter (can be different than your regular `title`)
+- `$socialDescription`: The description seen by users on Facebook and Twitter
 
