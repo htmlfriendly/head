@@ -6,9 +6,9 @@ A standardized `<head>` section tested and effective for sites with **more than 
 
 There are (3) major types of `<head>` sections for use with:
 
-- WebSite (used for the home page only)
-- WebPage (ex: About Us, Contact, FAQs)
-- Article (Blog, News, Articles)
+- **WebSite** (used for the home page only)
+- **WebPage** (ex: About Us, Contact, FAQs)
+- **Article** (Blog, News, Articles)
 
 Google has stated the `<head>` section is not a ranking factor in their search algo, but your `<head>` section is still critical for online marketing success (SEO and Paid Marketing).
 
