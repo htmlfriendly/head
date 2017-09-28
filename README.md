@@ -45,8 +45,8 @@ Your Global Variables will be used across the site on multiple pages:
 - `$favicon`: 32x32px icon you'll see in the browser tab
 - `$googlePlus`: The URL for your Google+ page
 - `$facebookAppId`: Find your Facebook App ID in your Facebook admin
-- `$facebookHandle`: The URI string following facebook.com for your organization/site (i.e. https://facebook.com/`company-url`)
-- `$twitterHandle`: Find this in your Twitter URL (i.e. https://twitter.com/`htmlfriendly`
+- `$facebookHandle`: The URI string following facebook.com for your organization/site (i.e. https://facebook.com/**sampleCompany**)
+- `$twitterHandle`: Find this in your Twitter URL (i.e. https://twitter.com/**sampleCompany**)
 - `$phone`: You main contact phone number
 - `$email`: Your main email address (should include match your website domain name)
 
